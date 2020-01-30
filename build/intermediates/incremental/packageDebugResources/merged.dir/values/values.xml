@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="datePickerStyle"/>
+    <attr format="reference" name="numberPickerStyle"/>
+    <attr format="reference" name="timePickerStyle"/>
+    <string name="cancel">Cancel</string>
+    <string name="date">Date</string>
+    <string name="date_picker_decrement_day_button">Decrement day</string>
+    <string name="date_picker_decrement_month_button">Decrement month</string>
+    <string name="date_picker_decrement_year_button">Decrement year</string>
+    <string name="date_picker_increment_day_button">Increment day</string>
+    <string name="date_picker_increment_month_button">Increment month</string>
+    <string name="date_picker_increment_year_button">Increment year</string>
+    <string name="time">Time</string>
+    <string name="time_picker_decrement_hour_button">Decrement hour</string>
+    <string name="time_picker_decrement_minute_button">Decrement minute</string>
+    <string name="time_picker_decrement_set_am_button">Set AM</string>
+    <string name="time_picker_dialog_title">Set time</string>
+    <string name="time_picker_increment_hour_button">Increment hour</string>
+    <string name="time_picker_increment_minute_button">Increment minute</string>
+    <string name="time_picker_increment_set_pm_button">Set PM</string>
+    <string name="time_picker_separator">:</string>
+    <declare-styleable name="DatePicker">
+
+        
+        <attr format="integer" name="picker_startYear"/>
+        
+        <attr format="integer" name="picker_endYear"/>
+        
+        <attr format="boolean" name="picker_spinnersShown"/>
+        
+        <attr format="boolean" name="picker_dayViewShown"/>
+        
+        <attr format="string" name="picker_minDate"/>
+        
+        <attr format="string" name="picker_maxDate"/>
+        
+        <attr format="reference" name="picker_internalLayout"/>
+    </declare-styleable>
+    <declare-styleable name="YMDHPicker">
+        
+        <attr format="integer" name="startYear"/>
+        
+        <attr format="integer" name="endYear"/>
+        
+        <attr format="string" name="minDate"/>
+        
+        <attr format="string" name="maxDate"/>
+    </declare-styleable>
+</resources>

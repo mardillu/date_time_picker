@@ -1,0 +1,56 @@
+R_DEF: Internal format may change without notice
+local
+attr datePickerStyle
+attr? endYear
+attr? maxDate
+attr? minDate
+attr numberPickerStyle
+attr? picker_dayViewShown
+attr? picker_endYear
+attr? picker_internalLayout
+attr? picker_maxDate
+attr? picker_minDate
+attr? picker_spinnersShown
+attr? picker_startYear
+attr? startYear
+attr timePickerStyle
+id amPm
+id day
+id divider
+id hour
+id left
+id minute
+id month
+id picker_time_first_divider
+id picker_time_hour
+id picker_time_minute
+id picker_time_second
+id picker_time_second_divider
+id pickers
+id right
+id second
+id year
+layout picker_date
+layout picker_date_time
+layout picker_hour_minute
+layout picker_time
+layout picker_ymdh
+string cancel
+string date
+string date_picker_decrement_day_button
+string date_picker_decrement_month_button
+string date_picker_decrement_year_button
+string date_picker_increment_day_button
+string date_picker_increment_month_button
+string date_picker_increment_year_button
+string time
+string time_picker_decrement_hour_button
+string time_picker_decrement_minute_button
+string time_picker_decrement_set_am_button
+string time_picker_dialog_title
+string time_picker_increment_hour_button
+string time_picker_increment_minute_button
+string time_picker_increment_set_pm_button
+string time_picker_separator
+styleable DatePicker picker_startYear picker_endYear picker_spinnersShown picker_dayViewShown picker_minDate picker_maxDate picker_internalLayout
+styleable YMDHPicker startYear endYear minDate maxDate
